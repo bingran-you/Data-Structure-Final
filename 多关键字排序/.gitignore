@@ -1,0 +1,7 @@
+*
+!.gitignore
+!*.c
+!*.sh
+!*.py
+!*.h
+!*.ui
