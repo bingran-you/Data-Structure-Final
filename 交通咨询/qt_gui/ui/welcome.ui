@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>899</width>
+    <height>640</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QLabel" name="lbl_bg">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>901</width>
+     <height>641</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>901</width>
+     <height>641</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>901</width>
+     <height>641</height>
+    </size>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel{
+	border-radius:10px;
+}
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>0</y>
+     <width>521</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color:rgb(126,124,160);
+font: 14pt &quot;Avenir Next Condensed&quot;;</string>
+   </property>
+   <property name="text">
+    <string>2020 数据结构大作业    作者: 张朝阳 尤炳然 王紫芮</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>330</y>
+     <width>231</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel{
+	font: 48pt &quot;Hannotate SC&quot;;
+	color:white
+}</string>
+   </property>
+   <property name="text">
+    <string>欢迎进入</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_4">
+   <property name="geometry">
+    <rect>
+     <x>110</x>
+     <y>400</y>
+     <width>241</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel{
+	font: 60pt &quot;Hannotate SC&quot;;
+	color:rgb(255,217,102);
+}</string>
+   </property>
+   <property name="text">
+    <string>交通咨询</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_5">
+   <property name="geometry">
+    <rect>
+     <x>350</x>
+     <y>400</y>
+     <width>121</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel{
+	font: 60pt &quot;Hannotate SC&quot;;
+	color:white
+}</string>
+   </property>
+   <property name="text">
+    <string>系统</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>490</y>
+     <width>341</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+	font: 16pt &quot;Heiti SC&quot;;
+	border-radius:10px;
+	color:white
+}
+
+QPushButton:hover{
+	background-color: rgb(255,217,102);
+}
+
+
+QPushButton:pressed{
+	background-color: rgb(46,49,146);
+}</string>
+   </property>
+   <property name="text">
+    <string>============点击开始体验============</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>pushButton</sender>
+   <signal>clicked()</signal>
+   <receiver>Form</receiver>
+   <slot>close()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>290</x>
+     <y>499</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>449</x>
+     <y>319</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>
